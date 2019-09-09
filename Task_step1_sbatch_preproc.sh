@@ -30,7 +30,7 @@ export OMP_NUM_THREADS=$SLURM_CPUS_ON_NODE
 #
 # 4) assumes dcm2niix/BIDS format
 #
-# 5) can accept blip scans (P->A), and should have one blip scan per phase
+# 5) can accept blip scans (P->A), and should have one blip scan per phase (not implemented for this study)
 
 
 
@@ -39,9 +39,9 @@ subj=$1
 
 
 ###??? update these
-workDir=~/compute/Exercise/derivatives/$subj
-dataDir=~/compute/Exercise/rawdata/$subj
-tempDir=~/compute/Exercise/code/templates
+workDir=~/compute/MST_WholeBrain/derivatives/$subj
+dataDir=~/compute/MST_WholeBrain/rawdata/$subj
+tempDir=~/compute/MST_WholeBrain/code/templates
 template=${tempDir}/vold2_mni_brain+tlrc
 priorDir=${tempDir}
 

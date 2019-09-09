@@ -4,7 +4,7 @@
 
 
 ###??? update these
-workDir=~/compute/Exercise
+workDir=~/compute/MST_WholeBrain
 scriptDir=${workDir}/code
 slurmDir=${workDir}/derivatives/Slurm_out
 time=`date '+%Y_%m_%d-%H_%M_%S'`

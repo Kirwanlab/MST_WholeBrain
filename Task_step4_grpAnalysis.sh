@@ -88,11 +88,11 @@ export OMP_NUM_THREADS=$SLURM_CPUS_ON_NODE
 
 
 # General variables
-workDir=~/compute/Exercise/derivatives						# par dir of data
+workDir=~/compute/MST_WholeBrain/derivatives						# par dir of data
 outDir=${workDir}/Analyses/grpAnalysis						# where output will be written (should match step3)
 refFile=${workDir}/sub-1425/run-1_mst_scale+tlrc			# reference file, for finding dimensions etc
 
-tempDir=~/compute/Exercise/code/templates    				# desired template
+tempDir=~/compute/MST_WholeBrain/code/templates    				# desired template
 priorDir=${tempDir}          								# location of atropos priors
 mask=Intersection_GM_mask+tlrc								# this will be made, just specify name for the interesection gray matter mask
 

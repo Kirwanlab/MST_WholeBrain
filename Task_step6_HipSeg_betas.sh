@@ -29,11 +29,11 @@
 
 
 # general vars											###??? Update these
-workDir=/Volumes/Yorick/STT_new
+workDir=/Volumes/Yorick/MST_WholeBrain
 roiDir=${workDir}/Analyses/roiAnalysis
 grpDir=${workDir}/Analyses/grpAnalysis
-priorDir=/Volumes/Yorick/Templates/vold2_mni/priors_HipSeg
-refFile=${workDir}/s1295/SpT1_stats
+priorDir=${workDir}/code/templates/vold2_mni/priors_HipSeg
+refFile=${workDir}/derivatives/sub-1425/mst_stats
 
 
 # decon vars

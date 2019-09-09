@@ -19,7 +19,7 @@
 
 
 # Variables
-workDir=/Volumes/Yorick/exercise/derivatives						###??? Update this section
+workDir=/Volumes/Yorick/MST_WholeBrain/derivatives						###??? Update this section
 grpDir=${workDir}/Analyses/grpAnalysis
 clustDir=${grpDir}/etac_clusters
 outDir=${grpDir}/etac_betas

@@ -4,7 +4,7 @@
 # stderr and stdout are written to ${outDir}/error_* and ${outDir}/output_* for troubleshooting.
 # job submission output are time stamped for troubleshooting
 
-workDir=~/compute/Exercise   ###??? update this
+workDir=~/compute/MST_WholeBrain   ###??? update this
 scriptDir=${workDir}/code
 slurmDir=${workDir}/derivatives/Slurm_out
 time=`date '+%Y_%m_%d-%H_%M_%S'`

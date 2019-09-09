@@ -23,7 +23,7 @@ module load r/3/5
 
 
 ###??? update these
-workDir=~/compute/Exercise/derivatives
+workDir=~/compute/MST_WholeBrain/derivatives
 grpDir=${workDir}/Analyses/grpAnalysis
 refDir=${workDir}/sub-1425
 maxP=0.1								# max percentage of censored TRs allowed (0.1 = 10%)
