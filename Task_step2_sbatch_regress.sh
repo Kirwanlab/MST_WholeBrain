@@ -40,7 +40,7 @@ testMode=$2
 
 
 													###??? update these variables/arrays - NEW: only this section needs to be updated!
-parDir=~/compute/Exercise				  			# parent dir, where derivatives is located
+parDir=~/compute/MST_WholeBrain				  			# parent dir, where derivatives is located
 workDir=${parDir}/derivatives/$subj
 
 doREML=1											# conduct GLS decon (1=on), runDecons must be 1
