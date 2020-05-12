@@ -1,0 +1,111 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 2516
+'[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] ===================================\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === History of inputs to 3dcalc ===\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input a:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input b:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input c:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input d:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input e:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input f:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input g:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input h:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input i:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input j:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input k:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input l:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input m:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input n:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input o:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input p:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input q:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] === Input r:\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] ===================================\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:07 2020] {AFNI_19.3.15:macos_10.12_local} 3dcalc -prefix mask_all_yassa_values -datum short -a yassa_masks/LDGCA3_bin.nii.gz -b yassa_masks/LCA1_bin.nii.gz -c yassa_masks/LSub_bin.nii.gz -d yassa_masks/LTempPole_bin.nii.gz -e yassa_masks/LPRC_bin.nii.gz -f yassa_masks/LaLEC_bin.nii.gz -g yassa_masks/LpMEC_bin.nii.gz -h yassa_masks/LPHC_bin.nii.gz -i yassa_masks/LRSC_bin.nii.gz -j yassa_masks/RDGCA3_bin.nii.gz -k yassa_masks/RCA1_bin.nii.gz -l yassa_masks/RSub_bin.nii.gz -m yassa_masks/RTempPole_bin.nii.gz -n yassa_masks/RPRC_bin.nii.gz -o yassa_masks/RaLEC_bin.nii.gz -p yassa_masks/RpMEC_bin.nii.gz -q yassa_masks/RPHC_bin.nii.gz -r yassa_masks/RRSC_bin.nii.gz -expr a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:10 2020] {AFNI_19.3.15:macos_10.12_local} 3drefit -space MNI -view tlrc mask_all_yassa_values+orig\n[kirwan@A-KirwanB-18: Fri Mar  6 10:43:10 2020] {AFNI_19.3.15:macos_10.12_local} 3dfractionize -template /Volumes/Yorick/Exercise/derivatives/sub-1425/mst_stats_REML+tlrc -input mask_all_yassa_values+tlrc -clip .5 -vote -prefix mask_all_yassa_fractionized~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_qRxt-ppqlPDzu-FRbumu9Q~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Fri Mar  6 10:43:10 2020~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 0 1 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+       95.39999          131.4      -77.39999
+
+type  = float-attribute
+name  = DELTA
+count = 3
+           -1.8           -1.8            1.8
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+           -1.8              0              0       95.39999              0
+           -1.8              0          131.4              0              0
+            1.8      -77.39999
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+           -1.8              0              0       95.39999              0
+           -1.8              0          131.4              0              0
+            1.8      -77.39999
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0             18
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 107 127 107 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 1
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

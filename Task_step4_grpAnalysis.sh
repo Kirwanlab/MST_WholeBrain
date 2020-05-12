@@ -21,7 +21,11 @@ export OMP_NUM_THREADS=$SLURM_CPUS_ON_NODE
 
 
 
-# Written by Nathan Muncy on 11/2/18
+# This is a general-purpose script written by Nathan Muncy on 11/2/18. For the MST 
+#   whole-brain project, we used some of the output of this script (notably the 
+#   intersection mask), but constructed specific scripts for blurring individual 
+#   regression output files and for the whole-brain analysis (both contained in separate 
+#   scripts).
 
 
 ###--- Notes, in no particular order
@@ -546,7 +550,7 @@ if [ $doMVM == 1 ]; then
 				xB=`awk '{ total += $2 } END { print total/NR }' tmp`
 				xC=`awk '{ total += $3 } END { print total/NR }' tmp`
 
-				3dClustSim -mask $mask -LOTS -iter 10000 -acf $xA $xB $xC > ACF_MC_${pref}.txt
+				3dClustSim -mask $mask -pthr .01 .001 .0001 -athr .05 .01 .005 .001 .0005 .0001 -iter 100000 -acf $xA $xB $xC > ACF_MC_${pref}.txt
 				rm tmp
 			fi
 		fi
